@@ -4,14 +4,14 @@
     // Add code here
 
     // single attribute binding
-    const width = ref('700');
-    const height = ref('400');
+    const width = ref('200');
+    const height = ref('200');
     const image = ref('/assets/me.png');
 
     // multiple attribute binding
     const size = ref({
-        width: '700',
-        height: '400',
+        width: '200',
+        height: '200',
         src: '/assets/me.png'
     })
 </script>
